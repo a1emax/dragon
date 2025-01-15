@@ -3,7 +3,7 @@ module dragon
 go 1.23
 
 require (
-	github.com/a1emax/youngine v0.2.0
+	github.com/a1emax/youngine v0.3.0
 	github.com/hajimehoshi/ebiten/v2 v2.8.6
 	golang.org/x/image v0.23.0
 )
