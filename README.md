@@ -1,6 +1,6 @@
 # Dragon
 
-This is [Youngine](https://github.com/a1emax/youngine) demo project.
+**[Youngine](https://github.com/a1emax/youngine) demo project**
 
 ## Concept
 
