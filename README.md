@@ -12,12 +12,12 @@ but not vice versa.
   * **domain** - domain logic.
   * **global** - global entities.
     * **vars** - arbitrary variables.
-    * **tools** - Youngine tools, logger, randomizer, etc.
+    * **tools** - Youngine tools, logger, RNG, etc.
     * **assets** - static assets.
   * **window** - GUI.
   * **kernel** - control kernel.
-* **cmd** - compilable service packages (if any).
-* **app** - compilable application packages.
+* **cmd** - compiled service packages (if any).
+* **app** - compiled application packages.
   * **desktop** - main for Windows, Linux and macOS.
   * **android_intern** - library for Android (compiled to AAR).
   * **android** - Android Studio project.
