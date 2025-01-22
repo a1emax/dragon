@@ -7,7 +7,7 @@
 Order of packages reflects possible dependencies between them - lower packages may depend on upper ones,
 but not vice versa.
 
-* **res** - embeddable file system containing resources (assets, configs, etc).
+* **res** - embedded file system containing resources (assets, configs, etc).
 * **pkg** - imported packages.
   * **domain** - domain logic.
   * **global** - global entities.
