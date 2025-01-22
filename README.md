@@ -6,7 +6,7 @@
 
 ### Windows
 
-`make build-windows`
+Run `make build-windows`.
 
 You can add the same commands for other desktop platforms, but for them:
 * C compiler is required;
@@ -14,11 +14,13 @@ You can add the same commands for other desktop platforms, but for them:
 
 ### Android
 
-`make install-ebitenmobile` (for the first time)
+Install Android SDK/NDK (for the first time).
 
-`make build-android`
+Run `make install-ebitenmobile` (for the first time).
 
-When ready, open `app/android` project in Android Studio and run it on emulator or your device.
+Run `make build-android`.
+
+Open `app/android` project in Android Studio and run it on emulator or your device.
 
 ## Layout
 
