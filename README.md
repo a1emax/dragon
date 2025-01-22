@@ -2,6 +2,24 @@
 
 **[Youngine](https://github.com/a1emax/youngine) demo project**
 
+## Compilation
+
+### Windows
+
+`make build-windows`
+
+You can add the same commands for other desktop platforms, but for them:
+* C compiler is required;
+* cross-compilation is not an option.
+
+### Android
+
+`make install-ebitenmobile` (for the first time)
+
+`make build-android`
+
+When ready, open `app/android` project in Android Studio and run it on emulator or your device.
+
 ## Layout
 
 Order of packages reflects possible dependencies between them - lower packages may depend on upper ones,
