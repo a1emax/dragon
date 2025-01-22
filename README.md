@@ -2,6 +2,26 @@
 
 **[Youngine](https://github.com/a1emax/youngine) demo project**
 
+## Layout
+
+Order of packages reflects possible dependencies between them - lower packages may depend on upper ones,
+but not vice versa.
+
+* **res** - embeddable file system containing resources (assets, configs, etc).
+* **pkg** - imported packages.
+  * **domain** - domain logic.
+  * **global** - global entities.
+    * **vars** - arbitrary variables.
+    * **tools** - Youngine tools, logger, randomizer, etc.
+    * **assets** - static assets.
+  * **window** - GUI.
+  * **kernel** - control kernel.
+* **cmd** - compilable service packages (if any).
+* **app** - compilable application packages.
+  * **desktop** - main for Windows, Linux and macOS.
+  * **android_intern** - library for Android (compiled to AAR).
+  * **android** - Android Studio project.
+
 ## Concept
 
 * Game is real time.
@@ -9,7 +29,7 @@
 * Landscape of each cell is floor or magma.
 * Cell may contain wall, small wall, door, or treasure.
 * Player-controlled dragon and computer-controlled thieves move around map.
-* Dragon consists of segments occupying one cell each — head (one segment), body and tail (several segments).
+* Dragon consists of segments occupying one cell each - head (one segment), body and tail (several segments).
 * Thief occupies one cell.
 * Walls, stones, and doors are impassable for dragon, as well as himself (he cannot move backwards and can block himself).
 * Walls, magna and dragon's body are impassable for thief.
